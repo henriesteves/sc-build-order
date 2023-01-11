@@ -67,6 +67,6 @@ model VerificationToken {
 
 model BuildOrder {
     id      String @id @default(cuid())
-    matchup String
+    matchUp String
     build   String
 }
